@@ -40,6 +40,11 @@ public class AppTest
         }
     }
 
+    @Test
+    public void myTest(){
+        System.out.println("AppTest.myTest + this is jenkins test");
+    }
+
     @After
     public void cleanUpStreams() {
         System.setOut(null);
